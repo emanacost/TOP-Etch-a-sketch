@@ -13,7 +13,7 @@ body {
     margin: auto;
     gap: 1px;
 }
-/* The width/height needs to grow/shrink at intervals of 1.5 */
+
 #box {
     background-color: white;
     border: solid 2px grey;
