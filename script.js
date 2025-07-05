@@ -1,6 +1,6 @@
 // Will use script to create an X by X grid
 
-
+console.log("I'm connected!")
 
 // Initializing some of the variables that will be needed later
 const boxesContainer = document.querySelector('#boxes-container');
