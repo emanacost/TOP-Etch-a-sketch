@@ -9,6 +9,8 @@ const boxes = document.createElement("div");
 boxes.id = "box"; // These will be the boxes that will be in the etch a sketch
 
 // Add a function that will be used to create the grid of boxes in the etch a sketch
-function grid() {
-    
+function grid(size) {
+    for (let i = 0; i < size**2; i++) {
+        boxesContainer.appendChild(boxes);
+    };
 }
