@@ -13,9 +13,9 @@ body {
     margin: auto;
 }
 /* The width/height needs to grow/shrink at intervals of 1.5 */
-/* #box {
+#box {
     width: 240px;
     height: 240px;
     background-color: white;
     border: solid 2px grey;
-} */
+} 
