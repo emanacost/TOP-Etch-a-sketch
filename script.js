@@ -10,6 +10,7 @@ const boxesContainer = document.querySelector('#boxes-container');
 
 // Add a function that will be used to create the grid of boxes in the etch a sketch
 function grid(size) {
+    boxesContainer.innerHTML = "";
     boxSize = (100 / size) - 1;
     boxSize.toString();
     for (let i = 0; i < size**2; i++) {
