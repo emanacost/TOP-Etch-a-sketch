@@ -23,5 +23,5 @@ function grid(size) {
 }
 
 // quick little button for testing grid function
-const btn =  document.querySelector("#btn");
-btn.addEventListener ("click", () => {grid(14)})
+// const btn =  document.querySelector("#btn");
+// btn.addEventListener ("click", () => {grid(14)})

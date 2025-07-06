@@ -18,3 +18,18 @@ body {
     background-color: white;
     border: solid 2px grey;
 }
+
+label {
+    color: white;
+}
+
+#grid-radio-btns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.radio-btn {
+    display: flex;
+    flex-direction: column-reverse;
+    font-size: smaller;
+}
