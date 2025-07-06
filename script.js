@@ -25,3 +25,14 @@ function grid(size) {
 // quick little button for testing grid function
 // const btn =  document.querySelector("#btn");
 // btn.addEventListener ("click", () => {grid(14)})
+
+// Select all radio buttons
+const radioButtons = document.querySelectorAll('input[type="radio"]');
+// Use radio buttons to select desired grid size
+radioButtons.forEach(radio => {
+    radio.addEventListener("change", (event) => {
+        if (event.target.checked) {
+            grid(Number(event.target.value))
+        }
+    });
+});
