@@ -1,5 +1,3 @@
-// Will use script to create an X by X grid
-
 console.log("I'm connected!")
 
 // Initializing some of the variables that will be needed later
@@ -21,10 +19,6 @@ function grid(size) {
         boxesContainer.appendChild(boxes);
     };
 }
-
-// quick little button for testing grid function
-// const btn =  document.querySelector("#btn");
-// btn.addEventListener ("click", () => {grid(14)})
 
 // Select all radio buttons
 const radioButtons = document.querySelectorAll('input[type="radio"]');
