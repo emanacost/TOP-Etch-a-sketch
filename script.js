@@ -28,6 +28,12 @@ function grid(size) {
 
 // Select all radio buttons
 const radioButtons = document.querySelectorAll('input[type="radio"]');
+// Clear the radio buttons on page load
+window.onload = () => {
+    radioButtons.forEach( radio => {
+        radio.checked = false;
+    });
+};
 // Use radio buttons to select desired grid size
 radioButtons.forEach(radio => {
     radio.addEventListener("change", (event) => {
