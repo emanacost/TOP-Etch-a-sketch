@@ -39,3 +39,7 @@ radioButtons.forEach(radio => {
         }
     });
 });
+
+// TODO:
+    // Rainbow colors
+    // "Erase" functionality
