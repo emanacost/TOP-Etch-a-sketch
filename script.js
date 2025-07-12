@@ -17,6 +17,9 @@ function grid(size) {
         boxes.style.width = boxSize + "%";
         boxes.style.height = boxSize + "%";
         boxesContainer.appendChild(boxes);
+        boxes.addEventListener("mouseover", function()  {
+            boxes.style.backgroundColor = "black";
+});
     };
 }
 
