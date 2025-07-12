@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Patrick+Hand&display=swap');
 
 body {
-    background-color: #48DAF7;
+    background-color: #3295FA;
 }
 
 #boxes-container {
@@ -11,8 +11,8 @@ body {
     height: 500px;
     justify-content: center;
     align-items: center;
-    border: solid #F74891 40px;
-    border-top: solid #F74891 10px;
+    border: solid #FA3F32 40px;
+    border-top: solid #FA3F32 10px;
     margin: auto;
     gap: 1px;
 }
@@ -22,14 +22,14 @@ body {
     font-size: 30px;
     font-style: oblique;
     font-weight: bolder;
-    color: #F7E648;
+    color: #E3FA32;
     margin: auto;
     width: 500px;
     text-align: center;
-    background-color: #F74891;
-    border-left: solid #F74891 40px;
-    border-right: solid #F74891 40px;
-    border-top: solid #F74891 10px;
+    background-color: #FA3F32;
+    border-left: solid #FA3F32 40px;
+    border-right: solid #FA3F32 40px;
+    border-top: solid #FA3F32 10px;
 }
 
 #box {
