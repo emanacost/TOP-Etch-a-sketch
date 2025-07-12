@@ -43,7 +43,7 @@ label {
 
 #grid-radio-btns {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .radio-btn {
