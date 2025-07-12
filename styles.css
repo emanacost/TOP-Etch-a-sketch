@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: #48DAF7;
 }
 
 #boxes-container {
@@ -9,9 +9,19 @@ body {
     height: 500px;
     justify-content: center;
     align-items: center;
-    border: solid grey 4px;
+    border: solid #F74891 40px;
+    border-top: solid #F74891 10px;
     margin: auto;
     gap: 1px;
+}
+
+#EAS-title {
+    margin: auto;
+    width: 500px;
+    text-align: center;
+    background-color: #F74891;
+    border-left: solid #F74891 40px;
+    border-right: solid #F74891 40px;
 }
 
 #box {
